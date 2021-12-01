@@ -64,18 +64,21 @@
                 android:id="@+id/repeat_one"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:contentDescription="repeats the song currently playing"
                 android:src="@drawable/ic_repeat_one_black_24dp" />
 
             <ImageButton
                 android:id="@+id/prev"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="Plays the previous song"
                 android:src="@android:drawable/ic_media_previous" />
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/play"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="Pauses and Plays"
                 android:elevation="0dp"
                 android:src="@android:drawable/ic_media_play" />
 
@@ -84,13 +87,15 @@
                 android:id="@+id/next"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="Plays next Song"
                 android:src="@android:drawable/ic_media_next" />
 
             <ImageButton
                 android:id="@+id/shuffle"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/ic_shuffle_black_24dp"/>
+                android:contentDescription="Shuffles the Queue"
+                android:src="@drawable/ic_shuffle_black_24dp" />
                 <!--android:tint="@android:color/holo_blue_dark"-->
         </LinearLayout>
     </LinearLayout>
